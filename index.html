@@ -3,77 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Website sederhana saya">
-    <title>Website Pertamaku</title>
+    <title>Dairu Fatahillah | SIB Student & Developer</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <header>
+    <nav class="navbar">
         <div class="container nav-container">
-            <div class="logo">WebFirst.</div>
-            <nav>
-                <ul class="nav-links" id="navLinks">
-                <li><a href="#beranda" class="active">Beranda</a></li>
-                <li><a href="#tentang">Tentang</a></li>
-                <li><a href="#layanan">Layanan</a></li>
-                <li><a href="#kontak">Kontak</a></li>
+            <a href="#" class="logo">Dairu.</a>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#skills">Keahlian</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact" class="btn-nav">Kontak</a></li>
             </ul>
-            </nav>
-                <div class="hamburger" id="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
         </div>
-    </header>
+    </nav>
 
-    <main>
-        <section id="beranda" class="hero">
-            <div class="container hero-content">
-                <h1>Selamat Datang di Website Pertama Saya</h1>
-                <p>Ini adalah website saya Yang masih awal atau masih baru. Bahasa yang saya gunakan 
-                    saat membuat website ini adalah HTML, CSS, dan JavaScript dasar.</p>
-                <a href="#tentang" class="btn">Next</a>
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <p class="greeting">Halo, saya</p>
+            <h1>Dairu Fatahillah</h1>
+            <p class="subtitle">Mahasiswa Sistem Informasi Bisnis (Polinema) <br> & Tech Enthusiast</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn btn-primary">Lihat Karya</a>
+                <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section id="tentang" class="section-padding">
-            <div class="container">
+    <section id="about" class="section">
+        <div class="container about-container">
+            <div class="about-text">
                 <h2 class="section-title">Tentang Saya</h2>
-                <p>Saya Dairu Fatahillah berdedikasi untuk membuat sebuah web yang simpel dan mudah agar saya bisa terus berkembang
-                    dalam pembuatan sebuah website yang elegan dan disukai oleh konsumen.</p>
-            </div>
-        </section>
-
-        <section id="layanan" class="section-bg section-padding">
-            <div class="container">
-                <h2 class="section-title">Layanan</h2>
-                <div class="cards-grid">
-                    <div class="card">
-                        <h3>Desain Web Saya</h3>
-                        <p>Desain saya yang menarik dan user-friendly.</p>
+                <p>Saya adalah mahasiswa D-4 Sistem Informasi Bisnis di Politeknik Negeri Malang dengan minat kuat pada perpaduan teknologi dan analisis bisnis.</p>
+                <p>Saya memiliki ketertarikan mendalam pada <strong>Pemrograman Java</strong> untuk solusi teknis, serta dunia <strong>Investasi & Forex</strong> untuk analisis pasar. Selain itu, saya juga menuangkan kreativitas melalui desain visual.</p>
+                
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>Hardworking</h3>
+                        <p>Etos Kerja</p>
                     </div>
-                    <div class="card">
-                        <h3>Informasi tentang produk</h3>
-                        <p>Membangun fungsionalitas website dengan kode yang bersih.</p>
+                    <div class="stat-item">
+                        <h3>Observant</h3>
+                        <p>Analisis Detail</p>
                     </div>
-                    <div class="card">
-                        <h3>Tempat beli produk</h3>
-                        <p>Disini tempat produk yang saya buat untuk dijual.</p>
+                    <div class="stat-item">
+                        <h3>Adaptive</h3>
+                        <p>Cepat Belajar</p>
                     </div>
                 </div>
             </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer id="kontak">
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title text-center">Fokus & Keahlian</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-code icon"></i>
+                    <h3>Development</h3>
+                    <p>Fokus pada pengembangan aplikasi berbasis Java dan pemahaman logika pemrograman yang kuat (Array, OOP).</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-line icon"></i>
+                    <h3>Trading & Investasi</h3>
+                    <p>Analisis pasar Forex, manajemen risiko, dan strategi investasi jangka panjang.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-pen-nib icon"></i>
+                    <h3>Creative Design</h3>
+                    <p>Membuat desain visual yang komunikatif untuk branding, pamflet acara, dan UI sederhana.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title text-center">Proyek Terbaru</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>SARU (Smart Aerial Response Unit)</h3>
+                        <p>Konsep PKM-GFT untuk penanggulangan bencana cerdas.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>Branding Otrahum Fest</h3>
+                        <p>Desain visual dan materi promosi untuk event kampus.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="portfolio-content">
+                        <h3>Personal Portfolio</h3>
+                        <p>Website personal branding yang responsif dan modern.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
         <div class="container footer-content">
-            <p>&copy; 2025 Website Pertamaku. Dibuat dengan secerah harapan dengan didampingi secangkir kopi ☕</p>
+            <h3>Mari Terhubung</h3>
+            <p>Tertarik diskusi soal Java, Forex, atau Desain? Sapa saya di:</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fas fa-envelope"></i></a>
+            </div>
+            <p class="copyright">© 2026 Dairu Fatahillah. Dibuat dengan secerah harapan & secangkir kopi ☕</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
