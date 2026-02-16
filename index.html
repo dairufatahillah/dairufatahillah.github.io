@@ -3,124 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dairu Fatahillah | SIB Student & Developer</title>
+    <title>Dairu Fatahillah | SIB & Tech Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
 
-    <nav class="navbar">
-        <div class="container nav-container">
-            <a href="#" class="logo">Dairu.</a>
-            <ul class="nav-links">
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#about">Tentang</a></li>
-                <li><a href="#skills">Keahlian</a></li>
-                <li><a href="#portfolio">Portofolio</a></li>
-                <li><a href="#contact" class="btn-nav">Kontak</a></li>
-            </ul>
-        </div>
-    </nav>
+    <header>
+        <div class="container nav-wrapper">
+            <a href="#" class="logo">Dairu<span class="dot">.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#expertise">Keahlian</a></li>
+                    <li><a href="#work">Karya</a></li>
+                    <li><a href="#contact" class="btn-nav">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div> </div>
+    </header>
 
-    <section id="home" class="hero">
-        <div class="container hero-content">
-            <p class="greeting">Halo, saya</p>
-            <h1>Dairu Fatahillah</h1>
-            <p class="subtitle">Mahasiswa Sistem Informasi Bisnis (Polinema) <br> & Tech Enthusiast</p>
-            <div class="hero-buttons">
-                <a href="#portfolio" class="btn btn-primary">Lihat Karya</a>
-                <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+    <section id="hero" class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <h4 class="greeting">Halo, nama saya</h4>
+                <h1>Dairu Fatahillah.</h1>
+                <h2 class="subtitle">Membangun Solusi Digital & Analisis Bisnis.</h2>
+                <p class="description">
+                    Mahasiswa Sistem Informasi Bisnis (Polinema) yang berfokus pada pengembangan software (Java) dan analisis pasar finansial. Saya menggabungkan logika teknis dengan wawasan bisnis.
+                </p>
+                <div class="hero-btns">
+                    <a href="#work" class="btn btn-primary">Lihat Proyek</a>
+                    <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="abstract-shape"></div>
             </div>
         </div>
     </section>
 
     <section id="about" class="section">
-        <div class="container about-container">
-            <div class="about-text">
-                <h2 class="section-title">Tentang Saya</h2>
-                <p>Saya adalah mahasiswa D-4 Sistem Informasi Bisnis di Politeknik Negeri Malang dengan minat kuat pada perpaduan teknologi dan analisis bisnis.</p>
-                <p>Saya memiliki ketertarikan mendalam pada <strong>Pemrograman Java</strong> untuk solusi teknis, serta dunia <strong>Investasi & Forex</strong> untuk analisis pasar. Selain itu, saya juga menuangkan kreativitas melalui desain visual.</p>
-                
-                <div class="stats">
-                    <div class="stat-item">
-                        <h3>Hardworking</h3>
-                        <p>Etos Kerja</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>Observant</h3>
-                        <p>Analisis Detail</p>
-                    </div>
-                    <div class="stat-item">
-                        <h3>Adaptive</h3>
-                        <p>Cepat Belajar</p>
-                    </div>
+        <div class="container">
+            <h2 class="section-title"><span class="title-number">01.</span> Tentang Saya</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Saya adalah mahasiswa tingkat akhir D-4 Sistem Informasi Bisnis di Politeknik Negeri Malang. Ketertarikan saya terletak pada titik temu antara teknologi dan finansial.</p>
+                    <p>Saya menikmati proses memecahkan masalah kompleks menggunakan pemrograman, sekaligus menganalisis tren pasar global melalui trading & investasi.</p>
+                    <ul class="skills-list">
+                        <li><i class="fas fa-caret-right"></i> Java (OOP & Struktural)</li>
+                        <li><i class="fas fa-caret-right"></i> Analisis Sistem Bisnis</li>
+                        <li><i class="fas fa-caret-right"></i> HTML, CSS & Basic JS</li>
+                        <li><i class="fas fa-caret-right"></i> Analisis Pasar Forex</li>
+                        <li><i class="fas fa-caret-right"></i> Manajemen Database</li>
+                        <li><i class="fas fa-caret-right"></i> Desain UI/UX Dasar</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="skills" class="section bg-light">
+    <section id="expertise" class="section bg-darker">
         <div class="container">
-            <h2 class="section-title text-center">Fokus & Keahlian</h2>
-            <div class="services-grid">
-                <div class="service-card">
+            <h2 class="section-title"><span class="title-number">02.</span> Keahlian Utama</h2>
+            <div class="expertise-grid">
+                <div class="expertise-card">
                     <i class="fas fa-code icon"></i>
-                    <h3>Development</h3>
-                    <p>Fokus pada pengembangan aplikasi berbasis Java dan pemahaman logika pemrograman yang kuat (Array, OOP).</p>
+                    <h3>Software Development</h3>
+                    <p>Mengembangkan aplikasi yang efisien dengan fokus pada bahasa Java dan pemahaman algoritma yang kuat untuk solusi backend.</p>
                 </div>
-                <div class="service-card">
+                <div class="expertise-card">
                     <i class="fas fa-chart-line icon"></i>
-                    <h3>Trading & Investasi</h3>
-                    <p>Analisis pasar Forex, manajemen risiko, dan strategi investasi jangka panjang.</p>
+                    <h3>Financial Analysis & Trading</h3>
+                    <p>Menganalisis data pasar finansial (Forex/Saham), manajemen risiko, dan pengambilan keputusan berbasis data.</p>
                 </div>
-                <div class="service-card">
-                    <i class="fas fa-pen-nib icon"></i>
-                    <h3>Creative Design</h3>
-                    <p>Membuat desain visual yang komunikatif untuk branding, pamflet acara, dan UI sederhana.</p>
+                <div class="expertise-card">
+                    <i class="fas fa-laptop-code icon"></i>
+                    <h3>Business Tech Integration</h3>
+                    <p>Menjembatani kebutuhan bisnis dengan solusi teknologi (seperti studi kasus ERP) untuk efisiensi operasional.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="portfolio" class="section">
+    <section id="work" class="section">
         <div class="container">
-            <h2 class="section-title text-center">Proyek Terbaru</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <div class="portfolio-content">
-                        <h3>SARU (Smart Aerial Response Unit)</h3>
-                        <p>Konsep PKM-GFT untuk penanggulangan bencana cerdas.</p>
+            <h2 class="section-title"><span class="title-number">03.</span> Proyek Unggulan</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <div class="project-content">
+                        <h4 class="project-overline">PKM-GFT Proposal</h4>
+                        <h3 class="project-title">SARU (Smart Aerial Response Unit)</h3>
+                        <div class="project-description">
+                            <p>Konsep gagasan futuristik untuk unit respons bencana udara cerdas, menggabungkan analisis kebutuhan sistem dan desain konseptual.</p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Analisis Sistem</li>
+                            <li>Konseptualisasi</li>
+                            <li>Technical Writing</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-content">
-                        <h3>Branding Otrahum Fest</h3>
-                        <p>Desain visual dan materi promosi untuk event kampus.</p>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h4 class="project-overline">Event Branding</h4>
+                        <h3 class="project-title">Otrahum Fest 2026</h3>
+                        <div class="project-description">
+                            <p>Bertanggung jawab atas identitas visual acara, pembuatan materi publikasi digital (pamflet, sertifikat) untuk memastikan konsistensi branding.</p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Desain Grafis</li>
+                            <li>Branding</li>
+                            <li>Komunikasi Visual</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-content">
-                        <h3>Personal Portfolio</h3>
-                        <p>Website personal branding yang responsif dan modern.</p>
+
+                <div class="project-card">
+                    <div class="project-content">
+                        <h4 class="project-overline">Analisis Bisnis</h4>
+                        <h3 class="project-title">Studi Implementasi ERP</h3>
+                        <div class="project-description">
+                            <p>Analisis mendalam mengenai bagaimana sistem Enterprise Resource Planning (ERP) dapat diintegrasikan ke dalam proses bisnis perusahaan.</p>
+                        </div>
+                        <ul class="project-tech-list">
+                            <li>Business Analysis</li>
+                            <li>Studi Kasus</li>
+                            <li>Presentasi</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <footer id="contact">
-        <div class="container footer-content">
-            <h3>Mari Terhubung</h3>
-            <p>Tertarik diskusi soal Java, Forex, atau Desain? Sapa saya di:</p>
-            <div class="social-links">
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fas fa-envelope"></i></a>
+    <section id="contact" class="section text-center">
+        <div class="container footer-container">
+            <h4 class="greeting">Apa Selanjutnya?</h4>
+            <h2 class="contact-title">Mari Terhubung</h2>
+            <p class="contact-desc">Saya selalu terbuka untuk mendiskusikan peluang baru, kolaborasi proyek Java, atau sekadar berdiskusi tentang analisis pasar. Sapa saya!</p>
+            <a href="mailto:emailanda@contoh.com" class="btn btn-primary btn-large">Kirim Email</a>
+
+            <div class="social-links mt-5">
+                <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
             </div>
-            <p class="copyright">© 2026 Dairu Fatahillah. Dibuat dengan secerah harapan & secangkir kopi ☕</p>
         </div>
-    </footer>
+        <div class="copyright">
+            <p>Dirancang & Dibangun oleh Dairu Fatahillah © 2026.</p>
+        </div>
+    </section>
 
 </body>
 </html>
